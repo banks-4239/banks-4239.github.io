@@ -4,17 +4,56 @@ body{
 
 }
 
-.title{
+.titlebox{
+    padding-left: 400px;
+}
+
+.titlebox div{
+    padding-right: 100px;
+}
+
+.titlebox div div{
+    padding: 0px;
+    background-color: lightgreen;
+    border: darkgreen;
+    border-style: outset;
+    border-width: 6px;
+}
+
+.titletext{
 
     text-align: center;
+    font-family: Tahoma, sans-serif;
     font-size: 30pt;
     font-weight: bold;
 
 }
 
+.mainheader{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.maintext{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.mainsection{
+    background-color: lightgreen;
+    position:relative;
+    left: 400px;
+    right: 100px;
+    display: inline-block;
+}
+
 .sidebar{
     height: 100%;
-    width: 250px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -24,9 +63,28 @@ body{
 }
 
 .sidebarElement{
+    display: inline-block;
+    font-family: Tahoma, sans-serif;
     text-align: center;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 25pt;
+    text-decoration: none;
+    color: black;
+    margin-top: 30pt;
+    margin-left: 10pt;
+    border: 6px;
+    border-color: darkgree;
+    border-style: outset;
+    padding: 2pt;
+    padding-right: 4pt;
+    background-color: lightgreen;
 }
+
+.sidebarElement:hover{
+
+    background-color: #70CC70;
+
+}
+
 
 
