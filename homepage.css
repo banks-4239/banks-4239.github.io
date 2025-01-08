@@ -1,6 +1,6 @@
 body{
 
-    background-color: forestgreen;
+    background-image: linear-gradient(forestgreen, rgb(18, 78, 18));
 
 }
 
@@ -8,13 +8,13 @@ body{
     padding-left: 400px;
 }
 
-.titlebox div{
+.titleboxouter{
     padding-right: 100px;
 }
 
-.titlebox div div{
+.titleboxinner{
     padding: 0px;
-    background-color: lightgreen;
+    background-color: rgb(73, 180, 144);
     border: darkgreen;
     border-style: outset;
     border-width: 6px;
@@ -29,6 +29,18 @@ body{
 
 }
 
+.titleimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: lightgreen;
+    border: darkgreen;
+    border-style: outset;
+    border-width: 6px;
+}
+
+
 .mainheader{
     text-align: center;
     font-family: Tahoma, sans-serif;
@@ -41,6 +53,8 @@ body{
     font-family: Tahoma, sans-serif;
     font-size: 20pt;
     font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .mainsection{
@@ -52,6 +66,7 @@ body{
 }
 
 .sidebar{
+    overflow: -moz-scrollbars-none; 
     height: 100%;
     width: 300px;
     position: fixed;
@@ -59,7 +74,24 @@ body{
     top: 0;
     left: 0;
     background-color: darkgreen;
-    overflow-x: hidden;
+    overflow-x: auto;
+    border: rgb(0, 156, 0);
+    border-style: outset;
+    border-width: 0px;
+    border-right-width: 5px;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none; 
+}
+
+.sidebarimgcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.sidebarlogo{
+    width:250px;
 }
 
 .sidebarElement{
@@ -75,9 +107,9 @@ body{
     border: 6px;
     border-color: darkgree;
     border-style: outset;
-    padding: 2pt;
-    padding-right: 4pt;
-    background-color: lightgreen;
+    padding: 5pt;
+    padding-right: 7pt;
+    background-color: rgb(87, 212, 171);
 }
 
 .sidebarElement:hover{

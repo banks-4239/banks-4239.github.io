@@ -1,32 +1,106 @@
 body{
 
-    background-color: forestgreen;
+    background-image: linear-gradient(forestgreen, rgb(18, 78, 18));
 
 }
 
-.title{
+.titlebox{
+    padding-left: 400px;
+}
+
+.titleboxouter{
+    padding-right: 100px;
+}
+
+.titleboxinner{
+    padding: 0px;
+    background-color: rgb(73, 180, 144);
+    border: darkgreen;
+    border-style: outset;
+    border-width: 6px;
+}
+
+.titletext{
 
     text-align: center;
+    font-family: Tahoma, sans-serif;
     font-size: 30pt;
     font-weight: bold;
 
 }
 
+.titleimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: lightgreen;
+    border: darkgreen;
+    border-style: outset;
+    border-width: 6px;
+}
+
+
+.mainheader{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.maintext{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.mainsection{
+    background-color: lightgreen;
+    position:relative;
+    left: 400px;
+    right: 100px;
+    display: inline-block;
+}
+
 .sidebar{
     height: 100%;
-    width: 250px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: darkgreen;
-    overflow-x: hidden;
+    overflow-x: auto;
+    border: rgb(0, 156, 0);
+    border-style: outset;
+    border-width: 0px;
+    border-right-width: 5px;
 }
 
 .sidebarElement{
+    display: inline-block;
+    font-family: Tahoma, sans-serif;
     text-align: center;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 25pt;
+    text-decoration: none;
+    color: black;
+    margin-top: 30pt;
+    margin-left: 10pt;
+    border: 6px;
+    border-color: darkgree;
+    border-style: outset;
+    padding: 5pt;
+    padding-right: 7pt;
+    background-color: rgb(87, 212, 171);
 }
+
+.sidebarElement:hover{
+
+    background-color: #70CC70;
+
+}
+
 
 
