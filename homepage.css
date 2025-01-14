@@ -118,5 +118,38 @@ body{
 
 }
 
+.dropdown-content {
+    display: none;
+    overflow: auto;
+    z-index: 1;
+  }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.show {display: block;}
+
+.dropdownButton{
+    display: inline-block;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    text-decoration: none;
+    color: black;
+    border: 4px;
+    border-color: darkgreen;
+    border-style: outset;
+    background-color: rgb(87, 212, 171);
+    position: relative;
+    top: -175px;
+    left: 4px;
+}
+
+.dropdownButton:hover{
+
+    background-color: #70CC70;
+
+}
