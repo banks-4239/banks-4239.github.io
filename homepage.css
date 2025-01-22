@@ -29,11 +29,18 @@ body{
 
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+}
+
 .titleimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    height: 450px;
     background-color: lightgreen;
     border: darkgreen;
     border-style: outset;
@@ -125,8 +132,8 @@ body{
   }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    /*position: relative;
+    display: inline-block;*/
 }
 
 .show {display: block;}
