@@ -52,6 +52,17 @@
     border-width: 6px;
 }
 
+.titleimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    background-color: lightgreen;
+    border: darkgreen;
+    border-style: outset;
+    border-width: 6px;
+}
+
 
 .mainheader{
     text-align: center;
