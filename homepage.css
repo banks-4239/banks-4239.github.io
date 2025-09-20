@@ -1,7 +1,12 @@
-body{
+.background{
 
     background-image: linear-gradient(forestgreen, rgb(18, 78, 18));
-
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
 }
 
 .titlebox{
@@ -29,11 +34,29 @@ body{
 
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+}
+
 .titleimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    height: 450px;
+    background-color: lightgreen;
+    border: darkgreen;
+    border-style: outset;
+    border-width: 6px;
+}
+
+.titlesmallimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
     background-color: lightgreen;
     border: darkgreen;
     border-style: outset;
@@ -125,8 +148,8 @@ body{
   }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    /*position: relative;
+    display: inline-block;*/
 }
 
 .show {display: block;}
